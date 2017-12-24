@@ -72,6 +72,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self.view setBackgroundColor:[UIColor darkGrayColor]];
+    
     
     // 监听正常按钮事件
     [self setupNormalKeyboard];
