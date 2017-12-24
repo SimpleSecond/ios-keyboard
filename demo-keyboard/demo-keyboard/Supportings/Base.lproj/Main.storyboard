@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ghA-SY-Tev" userLabel="普通键盘">
+                                <rect key="frame" x="0.0" y="40" width="375" height="44"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="普通键盘" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vGa-2t-y4z">
+                                        <rect key="frame" x="40" y="5" width="295" height="34"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="BLG-g4-Ukv"/>
+                                    <constraint firstAttribute="bottom" secondItem="vGa-2t-y4z" secondAttribute="bottom" constant="5" id="GxH-zn-ZtI"/>
+                                    <constraint firstItem="vGa-2t-y4z" firstAttribute="leading" secondItem="ghA-SY-Tev" secondAttribute="leading" constant="40" id="HE6-ZG-pWy"/>
+                                    <constraint firstItem="vGa-2t-y4z" firstAttribute="top" secondItem="ghA-SY-Tev" secondAttribute="top" constant="5" id="eOF-Fh-pwa"/>
+                                    <constraint firstAttribute="trailing" secondItem="vGa-2t-y4z" secondAttribute="trailing" constant="40" id="qeB-Kf-OeK"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lxK-1G-4mp" userLabel="数字键盘">
+                                <rect key="frame" x="0.0" y="100" width="375" height="44"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="数字键盘" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="d6c-7J-EiX">
+                                        <rect key="frame" x="40" y="5" width="295" height="34"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="d6c-7J-EiX" firstAttribute="top" secondItem="lxK-1G-4mp" secondAttribute="top" constant="5" id="6TJ-1u-mWl"/>
+                                    <constraint firstAttribute="trailing" secondItem="d6c-7J-EiX" secondAttribute="trailing" constant="40" id="A9U-Hx-Ha6"/>
+                                    <constraint firstItem="d6c-7J-EiX" firstAttribute="leading" secondItem="lxK-1G-4mp" secondAttribute="leading" constant="40" id="FUK-n4-Hjn"/>
+                                    <constraint firstAttribute="height" constant="44" id="U0B-mM-rBY"/>
+                                    <constraint firstAttribute="bottom" secondItem="d6c-7J-EiX" secondAttribute="bottom" constant="5" id="cLk-WR-jEk"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sUM-eH-tIa" userLabel="Email键盘">
+                                <rect key="frame" x="0.0" y="164" width="375" height="44"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email键盘" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gBa-1Y-f8v">
+                                        <rect key="frame" x="40" y="5" width="295" height="34"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="gBa-1Y-f8v" secondAttribute="trailing" constant="40" id="Jps-8n-Qm4"/>
+                                    <constraint firstAttribute="bottom" secondItem="gBa-1Y-f8v" secondAttribute="bottom" constant="5" id="Onk-yI-W22"/>
+                                    <constraint firstItem="gBa-1Y-f8v" firstAttribute="top" secondItem="sUM-eH-tIa" secondAttribute="top" constant="5" id="hIK-j1-eGG"/>
+                                    <constraint firstAttribute="height" constant="44" id="hbS-fs-CfK"/>
+                                    <constraint firstItem="gBa-1Y-f8v" firstAttribute="leading" secondItem="sUM-eH-tIa" secondAttribute="leading" constant="40" id="t0b-gn-tS2"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="yuJ-Yr-3ik"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sb8-rh-qTM" userLabel="自定义键盘">
+                                <rect key="frame" x="0.0" y="228" width="375" height="44"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="键盘上添加按钮" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Y8Q-sZ-DTX">
+                                        <rect key="frame" x="40" y="5" width="295" height="34"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="66N-hN-pRz"/>
+                                    <constraint firstAttribute="trailing" secondItem="Y8Q-sZ-DTX" secondAttribute="trailing" constant="40" id="6V3-ov-2ol"/>
+                                    <constraint firstItem="Y8Q-sZ-DTX" firstAttribute="top" secondItem="sb8-rh-qTM" secondAttribute="top" constant="5" id="MMN-qG-r0e"/>
+                                    <constraint firstAttribute="bottom" secondItem="Y8Q-sZ-DTX" secondAttribute="bottom" constant="5" id="PQi-KE-cEc"/>
+                                    <constraint firstAttribute="height" constant="44" id="QKO-6b-KlW"/>
+                                    <constraint firstItem="Y8Q-sZ-DTX" firstAttribute="leading" secondItem="sb8-rh-qTM" secondAttribute="leading" constant="40" id="UUy-VT-UN8"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="44" id="jDE-at-91Y"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lxy-Pu-3Qh" userLabel="底部键盘">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="底部输入框" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qRa-Cd-RJ7">
+                                        <rect key="frame" x="40" y="5" width="295" height="34"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="qRa-Cd-RJ7" firstAttribute="leading" secondItem="lxy-Pu-3Qh" secondAttribute="leading" constant="40" id="F4v-91-fSF"/>
+                                    <constraint firstItem="qRa-Cd-RJ7" firstAttribute="top" secondItem="lxy-Pu-3Qh" secondAttribute="top" constant="5" id="OEv-ij-zER"/>
+                                    <constraint firstAttribute="trailing" secondItem="qRa-Cd-RJ7" secondAttribute="trailing" constant="40" id="OSO-oL-3qm"/>
+                                    <constraint firstAttribute="height" constant="44" id="iPf-FH-GnY"/>
+                                    <constraint firstAttribute="bottom" secondItem="qRa-Cd-RJ7" secondAttribute="bottom" constant="5" id="oVI-w9-lEJ"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lxy-Pu-3Qh" secondAttribute="trailing" id="2Et-Fn-cSQ"/>
+                            <constraint firstItem="sUM-eH-tIa" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="4Lf-MT-87r"/>
+                            <constraint firstItem="ghA-SY-Tev" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="9Qg-xC-iON"/>
+                            <constraint firstItem="lxK-1G-4mp" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="DWd-cE-cau"/>
+                            <constraint firstItem="sUM-eH-tIa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="JD3-t9-Wzt"/>
+                            <constraint firstItem="lxK-1G-4mp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="K1V-6F-xnU"/>
+                            <constraint firstItem="sUM-eH-tIa" firstAttribute="top" secondItem="lxK-1G-4mp" secondAttribute="bottom" constant="20" id="NzK-bE-kMU"/>
+                            <constraint firstItem="lxK-1G-4mp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="80" id="VQ4-bY-GXE"/>
+                            <constraint firstItem="sb8-rh-qTM" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="YI7-OD-f4i"/>
+                            <constraint firstItem="lxy-Pu-3Qh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="c3Z-k8-Je5"/>
+                            <constraint firstItem="lxy-Pu-3Qh" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="cFf-RC-clO"/>
+                            <constraint firstItem="sb8-rh-qTM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="lRE-wu-XCz"/>
+                            <constraint firstItem="sb8-rh-qTM" firstAttribute="top" secondItem="sUM-eH-tIa" secondAttribute="bottom" constant="20" id="njy-Sn-raJ"/>
+                            <constraint firstItem="ghA-SY-Tev" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="40" id="sGM-hc-Of0"/>
+                            <constraint firstItem="ghA-SY-Tev" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="utK-27-e5h"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="bottomKeyboard" destination="qRa-Cd-RJ7" id="gvb-5v-TAQ"/>
+                        <outlet property="customKeyboard" destination="Y8Q-sZ-DTX" id="ujm-xM-TLN"/>
+                        <outlet property="emailKeyboard" destination="gBa-1Y-f8v" id="IJG-RH-Sg7"/>
+                        <outlet property="normalKeyboard" destination="vGa-2t-y4z" id="6R3-70-dfQ"/>
+                        <outlet property="numberKeyboard" destination="d6c-7J-EiX" id="CIz-jT-v7k"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

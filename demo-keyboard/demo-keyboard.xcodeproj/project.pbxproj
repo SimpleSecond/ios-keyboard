@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66F54BF31FEE279A00BC621E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F54BF21FEE279A00BC621E /* AppDelegate.m */; };
+		66F54BF61FEE279A00BC621E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F54BF51FEE279A00BC621E /* ViewController.m */; };
+		66F54BF91FEE279A00BC621E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66F54BF71FEE279A00BC621E /* Main.storyboard */; };
+		66F54BFC1FEE279A00BC621E /* demo_keyboard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 66F54BFA1FEE279A00BC621E /* demo_keyboard.xcdatamodeld */; };
+		66F54BFE1FEE279A00BC621E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66F54BFD1FEE279A00BC621E /* Assets.xcassets */; };
+		66F54C011FEE279A00BC621E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66F54BFF1FEE279A00BC621E /* LaunchScreen.storyboard */; };
+		66F54C041FEE279A00BC621E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F54C031FEE279A00BC621E /* main.m */; };
+		D461EDAA103B3566A90691C1 /* Pods_demo_keyboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 284C141D9734C806764A190B /* Pods_demo_keyboard.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		284C141D9734C806764A190B /* Pods_demo_keyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_demo_keyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A10C187172F2D4B73B097F6 /* Pods-demo-keyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demo-keyboard.release.xcconfig"; path = "Pods/Target Support Files/Pods-demo-keyboard/Pods-demo-keyboard.release.xcconfig"; sourceTree = "<group>"; };
+		66F54BEE1FEE279900BC621E /* demo-keyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "demo-keyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F54BF11FEE279900BC621E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		66F54BF21FEE279A00BC621E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		66F54BF41FEE279A00BC621E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		66F54BF51FEE279A00BC621E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		66F54BF81FEE279A00BC621E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66F54BFB1FEE279A00BC621E /* demo_keyboard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = demo_keyboard.xcdatamodel; sourceTree = "<group>"; };
+		66F54BFD1FEE279A00BC621E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66F54C001FEE279A00BC621E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66F54C021FEE279A00BC621E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66F54C031FEE279A00BC621E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76252AD7CD1DF0FC401FC456 /* Pods-demo-keyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demo-keyboard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-demo-keyboard/Pods-demo-keyboard.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66F54BEB1FEE279900BC621E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D461EDAA103B3566A90691C1 /* Pods_demo_keyboard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66F54BE51FEE279900BC621E = {
+			isa = PBXGroup;
+			children = (
+				66F54BF01FEE279900BC621E /* demo-keyboard */,
+				66F54BEF1FEE279900BC621E /* Products */,
+				85A7E245CB38A635DDA46345 /* Pods */,
+				FA43DE8666C8F1A19BDD1EEF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		66F54BEF1FEE279900BC621E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66F54BEE1FEE279900BC621E /* demo-keyboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66F54BF01FEE279900BC621E /* demo-keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				66F54C0B1FEF4F7200BC621E /* Class */,
+				66F54C0A1FEF4F7200BC621E /* Supportings */,
+			);
+			path = "demo-keyboard";
+			sourceTree = "<group>";
+		};
+		66F54C0A1FEF4F7200BC621E /* Supportings */ = {
+			isa = PBXGroup;
+			children = (
+				66F54BF71FEE279A00BC621E /* Main.storyboard */,
+				66F54BFD1FEE279A00BC621E /* Assets.xcassets */,
+				66F54BFF1FEE279A00BC621E /* LaunchScreen.storyboard */,
+				66F54C021FEE279A00BC621E /* Info.plist */,
+				66F54C031FEE279A00BC621E /* main.m */,
+				66F54BFA1FEE279A00BC621E /* demo_keyboard.xcdatamodeld */,
+			);
+			path = Supportings;
+			sourceTree = "<group>";
+		};
+		66F54C0B1FEF4F7200BC621E /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				66F54C0E1FEF4F7200BC621E /* Controller */,
+				66F54C0C1FEF4F7200BC621E /* Handler */,
+				66F54C0F1FEF4F7200BC621E /* Model */,
+				66F54C101FEF4F7200BC621E /* View */,
+				66F54C0D1FEF4F7200BC621E /* Others */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		66F54C0C1FEF4F7200BC621E /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		66F54C0D1FEF4F7200BC621E /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				66F54C121FEF4FB500BC621E /* Category */,
+				66F54C141FEF4FB500BC621E /* Controller */,
+				66F54C131FEF4FB500BC621E /* Tool */,
+				66F54C111FEF4FB500BC621E /* View */,
+				66F54BF11FEE279900BC621E /* AppDelegate.h */,
+				66F54BF21FEE279A00BC621E /* AppDelegate.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		66F54C0E1FEF4F7200BC621E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				66F54BF41FEE279A00BC621E /* ViewController.h */,
+				66F54BF51FEE279A00BC621E /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		66F54C0F1FEF4F7200BC621E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		66F54C101FEF4F7200BC621E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		66F54C111FEF4FB500BC621E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		66F54C121FEF4FB500BC621E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		66F54C131FEF4FB500BC621E /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		66F54C141FEF4FB500BC621E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		85A7E245CB38A635DDA46345 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76252AD7CD1DF0FC401FC456 /* Pods-demo-keyboard.debug.xcconfig */,
+				5A10C187172F2D4B73B097F6 /* Pods-demo-keyboard.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FA43DE8666C8F1A19BDD1EEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				284C141D9734C806764A190B /* Pods_demo_keyboard.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66F54BED1FEE279900BC621E /* demo-keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66F54C071FEE279A00BC621E /* Build configuration list for PBXNativeTarget "demo-keyboard" */;
+			buildPhases = (
+				3288D6965B77AE4FCFE0A8EF /* [CP] Check Pods Manifest.lock */,
+				66F54BEA1FEE279900BC621E /* Sources */,
+				66F54BEB1FEE279900BC621E /* Frameworks */,
+				66F54BEC1FEE279900BC621E /* Resources */,
+				009EB4F67E85F6AF81AD8C69 /* [CP] Embed Pods Frameworks */,
+				BFDBD8B5508BD1756A07C02D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "demo-keyboard";
+			productName = "demo-keyboard";
+			productReference = 66F54BEE1FEE279900BC621E /* demo-keyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66F54BE61FEE279900BC621E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = example;
+				TargetAttributes = {
+					66F54BED1FEE279900BC621E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 66F54BE91FEE279900BC621E /* Build configuration list for PBXProject "demo-keyboard" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66F54BE51FEE279900BC621E;
+			productRefGroup = 66F54BEF1FEE279900BC621E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66F54BED1FEE279900BC621E /* demo-keyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66F54BEC1FEE279900BC621E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F54C011FEE279A00BC621E /* LaunchScreen.storyboard in Resources */,
+				66F54BFE1FEE279A00BC621E /* Assets.xcassets in Resources */,
+				66F54BF91FEE279A00BC621E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		009EB4F67E85F6AF81AD8C69 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-demo-keyboard/Pods-demo-keyboard-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-demo-keyboard/Pods-demo-keyboard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3288D6965B77AE4FCFE0A8EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-demo-keyboard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFDBD8B5508BD1756A07C02D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-demo-keyboard/Pods-demo-keyboard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66F54BEA1FEE279900BC621E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F54BF61FEE279A00BC621E /* ViewController.m in Sources */,
+				66F54BFC1FEE279A00BC621E /* demo_keyboard.xcdatamodeld in Sources */,
+				66F54C041FEE279A00BC621E /* main.m in Sources */,
+				66F54BF31FEE279A00BC621E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		66F54BF71FEE279A00BC621E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66F54BF81FEE279A00BC621E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66F54BFF1FEE279A00BC621E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66F54C001FEE279A00BC621E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66F54C051FEE279A00BC621E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		66F54C061FEE279A00BC621E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66F54C081FEE279A00BC621E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76252AD7CD1DF0FC401FC456 /* Pods-demo-keyboard.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9AWTS62H8S;
+				INFOPLIST_FILE = "demo-keyboard/Supportings/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.demo-keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66F54C091FEE279A00BC621E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A10C187172F2D4B73B097F6 /* Pods-demo-keyboard.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9AWTS62H8S;
+				INFOPLIST_FILE = "demo-keyboard/Supportings/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.demo-keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66F54BE91FEE279900BC621E /* Build configuration list for PBXProject "demo-keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F54C051FEE279A00BC621E /* Debug */,
+				66F54C061FEE279A00BC621E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66F54C071FEE279A00BC621E /* Build configuration list for PBXNativeTarget "demo-keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F54C081FEE279A00BC621E /* Debug */,
+				66F54C091FEE279A00BC621E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		66F54BFA1FEE279A00BC621E /* demo_keyboard.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				66F54BFB1FEE279A00BC621E /* demo_keyboard.xcdatamodel */,
+			);
+			currentVersion = 66F54BFB1FEE279A00BC621E /* demo_keyboard.xcdatamodel */;
+			path = demo_keyboard.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 66F54BE61FEE279900BC621E /* Project object */;
+}
