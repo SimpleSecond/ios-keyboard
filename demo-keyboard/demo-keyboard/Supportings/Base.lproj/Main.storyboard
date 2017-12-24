@@ -129,7 +129,7 @@
                             <constraint firstItem="lxK-1G-4mp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="80" id="VQ4-bY-GXE"/>
                             <constraint firstItem="sb8-rh-qTM" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="YI7-OD-f4i"/>
                             <constraint firstItem="lxy-Pu-3Qh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="c3Z-k8-Je5"/>
-                            <constraint firstItem="lxy-Pu-3Qh" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="cFf-RC-clO"/>
+                            <constraint firstAttribute="bottom" secondItem="lxy-Pu-3Qh" secondAttribute="bottom" id="cFf-RC-clO"/>
                             <constraint firstItem="sb8-rh-qTM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="lRE-wu-XCz"/>
                             <constraint firstItem="sb8-rh-qTM" firstAttribute="top" secondItem="sUM-eH-tIa" secondAttribute="bottom" constant="20" id="njy-Sn-raJ"/>
                             <constraint firstItem="ghA-SY-Tev" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="40" id="sGM-hc-Of0"/>
@@ -139,6 +139,7 @@
                     </view>
                     <connections>
                         <outlet property="bottomKeyboard" destination="qRa-Cd-RJ7" id="gvb-5v-TAQ"/>
+                        <outlet property="bottomMargin" destination="cFf-RC-clO" id="kog-Ql-bvp"/>
                         <outlet property="customKeyboard" destination="Y8Q-sZ-DTX" id="ujm-xM-TLN"/>
                         <outlet property="emailKeyboard" destination="gBa-1Y-f8v" id="IJG-RH-Sg7"/>
                         <outlet property="normalKeyboard" destination="vGa-2t-y4z" id="6R3-70-dfQ"/>

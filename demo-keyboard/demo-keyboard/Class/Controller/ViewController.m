@@ -14,6 +14,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *emailKeyboard;
 @property (weak, nonatomic) IBOutlet UITextField *customKeyboard;
 @property (weak, nonatomic) IBOutlet UITextField *bottomKeyboard;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *bottomMargin;
 
 @end
 
@@ -77,6 +78,9 @@
     
     // 在键盘上添加一个自定义按钮
     [self setupCustomKeyboard];
+    
+    // 监听键盘高度的变化
+    [self setupNote];
 }
 
 - (void)setupNormalKeyboard
@@ -112,12 +116,11 @@
 
 - (void)keyboardFrameChange:(NSNotification *)notification
 {
-    // NSLog(@"%s", __func__);
+    NSLog(@"%f", self.bottomMargin.constant);
     // 修改约束
-    // CGFloat keyboardY = [notification.userInfo[UIKeyboardFrameEndUserInfoKey] CGRectValue].origin.y;
-    CGFloat keyboardH = [notification.userInfo[UIKeyboardFrameEndUserInfoKey] CGRectValue].size.height;
-    CGRect frame = self.view.frame;
-    frame.size.height = [UIScreen mainScreen].bounds.size.height - keyboardH;
+    CGFloat keyboardY = [notification.userInfo[UIKeyboardFrameEndUserInfoKey] CGRectValue].origin.y;
+    //CGFloat keyboardH = [notification.userInfo[UIKeyboardFrameEndUserInfoKey] CGRectValue].size.height;
+    self.bottomMargin.constant = [UIScreen mainScreen].bounds.size.height - keyboardY;
     
     // 执行动画
     CGFloat duration = [notification.userInfo[UIKeyboardAnimationDurationUserInfoKey] doubleValue];
